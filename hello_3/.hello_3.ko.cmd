@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/kernel_modules/hello_3/hello_3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/kaustubh/kernel_modules/hello_3/hello_3.ko /home/kaustubh/kernel_modules/hello_3/hello_3.o /home/kaustubh/kernel_modules/hello_3/hello_3.mod.o ;  true

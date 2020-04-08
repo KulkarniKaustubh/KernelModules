@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/kernel_modules/character_device_drivers/chardev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/kaustubh/kernel_modules/character_device_drivers/chardev.ko /home/kaustubh/kernel_modules/character_device_drivers/chardev.o /home/kaustubh/kernel_modules/character_device_drivers/chardev.mod.o ;  true

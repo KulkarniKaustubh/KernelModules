@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/driver_test/multiple_files/../test4/cmd_args.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/kaustubh/driver_test/multiple_files/../test4/cmd_args.ko /home/kaustubh/driver_test/multiple_files/../test4/cmd_args.o /home/kaustubh/driver_test/multiple_files/../test4/cmd_args.mod.o ;  true

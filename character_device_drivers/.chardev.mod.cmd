@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/kernel_modules/character_device_drivers/chardev.mod := { echo  /home/kaustubh/kernel_modules/character_device_drivers/chardev.o; echo; } > /home/kaustubh/kernel_modules/character_device_drivers/chardev.mod
