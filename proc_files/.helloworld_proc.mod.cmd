@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/kernel_modules/proc_files/helloworld_proc.mod := { echo  /home/kaustubh/kernel_modules/proc_files/helloworld_proc.o; echo; } > /home/kaustubh/kernel_modules/proc_files/helloworld_proc.mod

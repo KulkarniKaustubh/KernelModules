@@ -1,7 +1,6 @@
 obj-m:= hello.o
 
 all:
-
-	sudo make -C /lib/modules/5.3.0-42-generic/build M=/home/kaustubh/kernel_modules/hello_1 modules
+	sudo make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 clean:
-	sudo make -C /lib/modules/5.3.0-42-generic/build M=/home/kaustubh/kernel_modules/hello_1 clean
+	sudo make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean

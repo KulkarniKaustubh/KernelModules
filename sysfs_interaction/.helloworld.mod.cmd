@@ -1,0 +1,1 @@
+cmd_/home/kaustubh/kernel_modules/sysfs_interaction/helloworld.mod := { echo  /home/kaustubh/kernel_modules/sysfs_interaction/helloworld.o; echo; } > /home/kaustubh/kernel_modules/sysfs_interaction/helloworld.mod
